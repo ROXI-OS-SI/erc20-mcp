@@ -10,7 +10,7 @@ import {
 import { registerGenerateERC20ContractPrompt } from "./prompts/index.js";
 
 const server = new FastMCP({
-  name: "erc20",
+  name: "ROXI erc20-mcp",
   version: "1.0.0",
 });
 
