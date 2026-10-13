@@ -35,7 +35,7 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
   "mcpServers": {
     "erc20": {
       "command": "npx",
-      "args": ["-y", "erc20-mcp"]
+      "args": ["-y", "@roxi-os/erc20-mcp"]
     }
   }
 }
