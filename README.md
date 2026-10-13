@@ -1,8 +1,8 @@
 # 🪙 erc20-mcp
 
-`erc20-mcp` is the token module of **[ROXI OS](https://github.com/Roxi-OS)**, the Reasoning-Oriented Execution Interface for onchain agents.
+`erc20-mcp` is the token module of **[ROXI OS](https://github.com/ROXI-OS-SI)**, the Reasoning-Oriented Execution Interface for onchain agents.
 
-It turns token intents (transfer, approve, mint, deploy, read supply or allowance) into **ready-to-sign call data**. It never sends anything itself: each `prepare-*` result is passed to [`metamask-mcp`](https://github.com/Roxi-OS/metamask-mcp), where you review and sign it.
+It turns token intents (transfer, approve, mint, deploy, read supply or allowance) into **ready-to-sign call data**. It never sends anything itself: each `prepare-*` result is passed to [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp), where you review and sign it.
 
 📖 Docs: [roxi-ten.vercel.app/docs/servers/erc20-mcp](https://roxi-ten.vercel.app/docs/servers/erc20-mcp)
 
@@ -44,8 +44,8 @@ Add it to your MCP client (for example Claude Desktop's `claude_desktop_config.j
 ### From source
 
 ```bash
-git clone https://github.com/Roxi-OS/erc20-mcp-main.git
-cd erc20-mcp-main
+git clone https://github.com/ROXI-OS-SI/erc20-mcp.git
+cd erc20-mcp
 pnpm install
 pnpm build
 ```
@@ -57,7 +57,7 @@ Then point your client at the build:
   "mcpServers": {
     "erc20": {
       "command": "node",
-      "args": ["/absolute/path/to/erc20-mcp-main/build/index.js"]
+      "args": ["/absolute/path/to/erc20-mcp/build/index.js"]
     }
   }
 }

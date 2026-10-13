@@ -40,7 +40,7 @@
   "homepage": "https://roxi-ten.vercel.app/docs/servers/erc20-mcp",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roxi-OS/erc20-mcp-main.git"
+    "url": "git+https://github.com/ROXI-OS-SI/erc20-mcp.git"
   },
   "publishConfig": {
     "access": "public"
