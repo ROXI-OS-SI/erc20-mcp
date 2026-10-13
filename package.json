@@ -1,6 +1,6 @@
 {
   "name": "@roxi-os/erc20-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ROXI OS ERC-20 MCP server: prepares token transfers, approvals, allowances and deployments for wallet signing.",
   "type": "module",
   "main": "./build/index.js",
