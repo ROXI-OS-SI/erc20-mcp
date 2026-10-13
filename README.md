@@ -2,9 +2,9 @@
 
 [![npm](https://img.shields.io/npm/v/@roxi-os/erc20-mcp?label=npm&color=c5f24a)](https://www.npmjs.com/package/@roxi-os/erc20-mcp)
 [![license](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
-[![docs](https://img.shields.io/badge/docs-roxi--ten.vercel.app-black)](https://roxi-ten.vercel.app/docs/servers/erc20-mcp)
+[![docs](https://img.shields.io/badge/docs-roxi--os.si-black)](https://roxi-os.si/docs/servers/erc20-mcp)
 
-**The token module of [ROXI OS](https://roxi-ten.vercel.app)**, the Reasoning-Oriented Execution Interface.
+**The token module of [ROXI OS](https://roxi-os.si)**, the Reasoning-Oriented Execution Interface.
 
 `erc20-mcp` turns token requests (transfer, approve, mint, deploy, check supply or allowance) into **ready-to-sign call data**. It never sends anything itself: every result is handed to [`metamask-mcp`](https://github.com/ROXI-OS-SI/metamask-mcp), where you review and sign it.
 
@@ -41,7 +41,7 @@ Approve 0x… to spend 20 USDC.
 What's the total supply of 0x…?
 ```
 
-Full walkthrough: [Send ERC-20 tokens](https://roxi-ten.vercel.app/docs/guides/send-tokens).
+Full walkthrough: [Send ERC-20 tokens](https://roxi-os.si/docs/guides/send-tokens).
 
 ---
 
@@ -91,7 +91,7 @@ Every `prepare-*` tool returns three fields:
 
 > ⚠️ The example contract's `mint` function is public with no access control. Restrict it to an owner, or remove it, before deploying a real token.
 
-Reference: [erc20-mcp docs](https://roxi-ten.vercel.app/docs/servers/erc20-mcp).
+Reference: [erc20-mcp docs](https://roxi-os.si/docs/servers/erc20-mcp).
 
 ---
 
@@ -128,7 +128,7 @@ Then point your client at the build:
 | **erc20-mcp** | ERC-20 transfers, approvals and reads |
 | [solc-mcp](https://github.com/ROXI-OS-SI/solc-mcp) | Solidity compilation |
 
-📖 [Documentation](https://roxi-ten.vercel.app/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
+📖 [Documentation](https://roxi-os.si/docs) · 📦 [npm](https://www.npmjs.com/org/roxi-os)
 
 ## 🙏 Credits
 
