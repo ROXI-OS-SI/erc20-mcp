@@ -4,7 +4,7 @@
 
 It turns token intents (transfer, approve, mint, deploy, read supply or allowance) into **ready-to-sign call data**. It never sends anything itself: each `prepare-*` result is passed to [`metamask-mcp`](https://github.com/Roxi-OS/metamask-mcp), where you review and sign it.
 
-📖 Docs: [docs.roxi.so](https://docs.roxi.so/)
+📖 Docs: [roxi-ten.vercel.app/docs/servers/erc20-mcp](https://roxi-ten.vercel.app/docs/servers/erc20-mcp)
 
 ---
 
